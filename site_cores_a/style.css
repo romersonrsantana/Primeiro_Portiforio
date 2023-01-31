@@ -20,7 +20,7 @@ body{
 header{
     background-color: var(--cor01);
     text-align: center;
-    min-width: 450px;
+    min-width: 448px;
     max-width: 800px;
     
 
@@ -44,7 +44,7 @@ header p{
 }
 nav{
     background-color:var(--cor01);
-    min-width: 450px;
+    min-width: 430px;
     padding: 15px 30px;
 }
 nav a{
