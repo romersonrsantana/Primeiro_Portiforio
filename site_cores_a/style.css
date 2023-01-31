@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+:root{
+    --cor01:#faf62a;
+    --cor02:#ff760e;
+    --cor03:#df40e7;
+    --cor04:#63A3FF;
+    --cor05:#2FF555;
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --font-destaque: cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor04);
+}
+header{
+    background-color: var(--cor01);
+    text-align: center;
+
+}
+header h1{
+    font-family: var(--font-destaque);
+    color: var(--cor03);
+    font-weight: bolder;
+    font-size: 3em;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    text-shadow: 3px 2px 0px #000000c9;
+}
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--cor04);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.6em;
+    text-shadow: 0.3px 0.3px 0px #000000;
+}
+nav{
+    background-color:var(--cor01);
+    padding: 15px 30px;
+}
+nav a{
+    color: var(--cor03);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.3em ;
+    padding-right: 12px;
+}
+nav a:hover{
+    color: white;
+    background-color: var(--cor03);
+    border-radius: 6px;
+    padding: 3px;
+}
+main{
+    background-color: white;
+    min-width: 420px;
+    max-width: 800px;
+    margin: auto;
+    padding: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.322);
+}
+.primeiro{
+    color: white;
+    background-image: linear-gradient(to right, var(--cor03), transparent);
+    padding-left: 21px;
+    margin-left: -11.3px;
+    margin-right: -12px;
+    margin-top: -12px;
+    font-family: var(--font-destaque);
+    font-size: 1.8em;
+    box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.322);
+}
+main img{
+    display: block;
+    margin: auto;
+}
+.personalizado{
+    margin-top: 9px;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor03), transparent);
+    padding-left: 21px;
+    margin-left: -11.3px;
+    margin-right: -12px;
+    font-family: var(--font-destaque);
+    font-size: 1.8em;
+    box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.322);
+
+}
+h3.nivel_tres{
+    color: var(--cor03);
+    margin-left: 6.3px;
+    margin-right: -12px;
+    font-family: var(--font-destaque);
+    font-size: 1.3em;
+}
+main p{
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 2.2em;
+    font-family: var(--font-padrao);
+}
+main ul{
+    columns: 2;
+    list-style-position: inside;
+    line-height: 1.5em;
+    list-style-type: circle; 
+}
+main > aside{
+    background-color: var(--cor05);
+    color: black;
+    font-weight: bolder;
+    margin: 0px 15px -12px 15px;
+    padding: 12px;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.322);  
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    margin-top: 12px;
+    box-shadow: 2px -1px 0px 1px rgb(0 0 0 / 72%);
+}
+li.vermelho{
+    color: black;
+}
+li.vermelho:hover{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+}li.amarelo:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+}li.laranja:hover{
+    background-color: orangered;
+    color: white;
+    border-radius: 3px;
+}
+li.verde:hover{
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+}
+li.azul:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+}
+li.roxo:hover{
+    background-color: purple;
+    color: white;
+    border-radius: 3px;
+}
+li.marrom:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 3px;
+}
+li.preto:hover{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+li.branco:hover{
+    background-color: #df40e73f;
+    border-radius: 3px;
+}
+li.cinza:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+}
+li.rosa:hover{
+    background-color: pink;
+    color: white;
+    border-radius: 3px;
+}
+abbr{
+    transition: none;
+    text-decoration: solid;
+}
+nav > div > h2{
+    color: var(--cor04);
+    font-weight: bolder;
+
+}
+div:hover{
+    color:aquamarine
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+}
+div.video{
+    background-color: var(--cor03);
+    margin: 0px -6px 15px -6px;
+    padding: 30px;
+
+    position: relative;
+    padding-bottom: 56.6%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 90%;
+    height: 90%;
+
+}
