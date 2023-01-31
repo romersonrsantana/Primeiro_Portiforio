@@ -44,6 +44,7 @@ header p{
 }
 nav{
     background-color:var(--cor01);
+    min-width: 450px;
     padding: 15px 30px;
 }
 nav a{
